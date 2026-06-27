@@ -1,0 +1,23 @@
+{
+    "cSpell.words": [
+        "autofocus",
+        "callbinding",
+        "CXSCREEN",
+        "CYSCREEN",
+        "datapath",
+        "DEFAULTSIZE",
+        "icoh",
+        "icow",
+        "Lpfn",
+        "lpmmi",
+        "Lpsz",
+        "mainthread",
+        "maxsz",
+        "minsz",
+        "msgcb",
+        "OVERLAPPEDWINDOW",
+        "USEDEFAULT",
+        "WMNCL",
+        "wndproc"
+    ]
+}

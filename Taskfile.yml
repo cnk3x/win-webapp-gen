@@ -6,7 +6,8 @@ tasks:
     default:
         desc: build
         cmds:
-            - go build -trimpath -ldflags '-s -w -H=windowsgui' -o win-webapp-loader.exe
-            - go build -trimpath -ldflags '-s -w' -tags creator -o bin/win-webapp-gen.exe
-            - rm win-webapp-loader.exe
+            - go build -trimpath -ldflags '-s -w -H=windowsgui' -o cmd/creator/win-webapp-loader.exe ./cmd/loader/
+            # - go build -trimpath -ldflags '-s -w' -o cmd/creator/win-webapp-loader.exe ./cmd/loader2/
+            - go build -trimpath -ldflags '-s -w' -o bin/win-webapp-gen.exe ./cmd/creator/
+            - rm cmd/creator/win-webapp-loader.exe
             - cp bin/win-webapp-gen.exe D:/Users/bin/win-webapp-gen.exe
